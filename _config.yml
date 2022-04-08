@@ -132,7 +132,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: AKALAKAorg
+      url: https://twitter.com/AKALAKAorg
    # - label: "Facebook"
    #   icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -147,7 +147,7 @@ footer:
  #     # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: AKALAKAorg
+      url: https://www.instagram.com/AKALAKAorg
 
 
 # Reading Files
