@@ -12,20 +12,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Taking Care of Siblings"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "AKALAKA - Handle life together." # site tagline that appears below site title in masthead
+name                     : "AKALAKA"
+description              : "AKALAKA provides adult siblings of individuals with intellectual & developmental disabilities with on-demand education and support. Our vision is to become the first and best place you go to for timely, thoughtful, and delightful experiences with home and community-based services. Join AKALAKA and handle life together."
+url                      : "https://www.akalaka.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               : "AKALAKA-org/testakalaka2.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/img/avatar-icon.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/img/AKALAKA_handlelifetogether.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -79,11 +79,11 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : AKALAKAorg
+#facebook:
+  #username               :
+  #app_id                 :
+  #publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -132,22 +132,22 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
+      url: AKALAKAorg
+   # - label: "Facebook"
+   #   icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+  #  - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+  #  - label: "GitLab"
+  #    icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+ #   - label: "Bitbucket"
+ #     icon: "fab fa-fw fa-bitbucket"
+ #     # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: AKALAKAorg
 
 
 # Reading Files
