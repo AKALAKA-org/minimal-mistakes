@@ -133,6 +133,13 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: https://twitter.com/AKALAKAorg
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: https://www.instagram.com/AKALAKAorg
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: https://linkedin.com/company/AKALAKA
+      
    # - label: "Facebook"
    #   icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -142,13 +149,6 @@ footer:
   #  - label: "GitLab"
   #    icon: "fab fa-fw fa-gitlab"
       # url:
- #   - label: "Bitbucket"
- #     icon: "fab fa-fw fa-bitbucket"
- #     # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: https://www.instagram.com/AKALAKAorg
-
 
 # Reading Files
 include:
