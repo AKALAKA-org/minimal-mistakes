@@ -1,12 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Services"
+    url: https://akalaka-org.github.io/testakalaka2.github.io/#
+  - title: "About"
+    url: https://akalaka-org.github.io/testakalaka2.github.io/about
+  - title: "Pricing"
+    url: https://akalaka-org.github.io/testakalaka2.github.io/join
+  - title: "Blog"
+    url: https://akalaka-org.github.io/testakalaka2.github.io/blog
+  - title: "Members"
+    url: https://akalaka-org.github.io/testakalaka2.github.io/join
+  - title: "Join"
+    url: https://buy.stripe.com/eVa6pmd5oghM5Py4gm
   # - title: "Sitemap"
   #   url: /sitemap/
