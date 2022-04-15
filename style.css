@@ -144,3 +144,8 @@ p {
     padding: 20px 12px;
     box-sizing: border-box;
 }
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
