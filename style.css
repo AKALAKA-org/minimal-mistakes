@@ -205,3 +205,19 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+.layer p {
+    width: 100%;
+    font-weight: 200;
+    color: #fff;
+    font-size: 13px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover p {
+    bottom: 49%;
+    opacity: 1;
+}
