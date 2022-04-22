@@ -218,7 +218,7 @@ h3 {
     transition: 0.5s;
 }
 .layer:hover p {
-    bottom: 75%;
+    bottom: 20%;
     opacity: 1;
 }
 
