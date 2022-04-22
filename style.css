@@ -200,7 +200,7 @@ h3 {
 .medicaid-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-.medicaid-col2:hover {
+.medicaid2-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 @media(max-width: 700px) {
