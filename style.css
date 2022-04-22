@@ -154,7 +154,7 @@ h1 {
 }
 .medicaid-col {
     flex-basis: 31%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/northcarolina.png);
+    background-image: url(images/northcarolina.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -165,7 +165,7 @@ h1 {
 }
 .medicaid2-col {
     flex-basis: 31%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/otherstate.png);
+    background-image: url(images/otherstate.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
