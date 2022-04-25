@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome to AKALAKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Members</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<h1>About Us</h1>
+
+</section>
+    
+<!----- Join Us ----->
+
+<!----- Medicaid Enrollment ----->
+
+<!----- About Us Content ----->
+
+<section class="about-us">
+    
+    <script src="https://fast.wistia.com/embed/medias/jvtk5jrdok.jsonp" async>
+    </script>
+    <script src="https://fast.wistia.com/assets/external/E-v1.js" async>
+    </script>
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>\ ah-ka-la-ka \</h1>
+            <p>AKALAKA is an Igbo word that translates literally to mean ‘handprint’ and figuratively, to mean ‘destiny.’
+               As our handprints differ, our life journeys differ.
+               With AKALAKA, we realize our shared destiny and join hand in hand to confidently handle life together.</p>
+            <a href="" class="hero-btn red-btn">Join Us</a>
+        </div>
+        <div class="about-col">
+            <img src="images/caregivingheader.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h1>About Us</h1>
+    <p>At AKALAKA, we believe in providing the best support and resources to those who need and give the greatest care.<br>
+       We are working toward timely, thoughtful, and delightful home & community-based services for individuals and families.</p>
+    
+    <div class="row">
+        <div class="about-col">
+            <h3>Who We Are</h3>
+            <p>AKALAKA is the network of support and resources for sibling care partners
+               on their lifelong journeys with intellectual and developmental disabilities.
+               We know ~80% of individuals have siblings and it is the longest relationship for most,
+               so we want to cultivate these relationships to grow a trusted network of siblings across families who care for each other.</p>
+        </div>
+        <div class="about-col">
+            <h3>Our Mission</h3>
+            <p>We are working toward timely, thoughtful, and delightful home & community-based services for individuals and families.</p>
+        </div>
+        <div class="about-col">
+            <h3>Our Impact</h3>
+            <p>AKALAKA creates opportunities for sibling care partners from different families to
+               connect with each other, learn together, grow together, and handle life together.</p>
+        </div>
+    </div>
+    
+    <div>
+        <a href="" class="static-btn">Join Us</a>
+    </div>
+</section>
+
+<!----- Offerings ----->
+
+<!----- Footer ----->
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+</body>
+</html>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
