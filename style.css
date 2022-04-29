@@ -47,6 +47,34 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+.sub-menu-1 {
+    display: none;
+}
+.nav-links ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #f44336;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.nav-links ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+.nav-links ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav-links ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+.nav-links ul li:hover .sub-menu-1 ul li:hover {
+    color: #f44336;
+}
 .text-box {
     width: 90%;
     color: #fff;
