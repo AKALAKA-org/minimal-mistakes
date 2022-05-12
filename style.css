@@ -260,6 +260,7 @@ p {
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    justify-content: space-between;
     transition: 0.5s;
 }
 .info-col {
