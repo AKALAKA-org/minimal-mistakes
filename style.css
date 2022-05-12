@@ -50,7 +50,7 @@ nav img {
 .nav-links ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
-    background: #f44336;
+    background: #afe1af;
     margin-top: 15px;
     margin-left: -15px;
 }
