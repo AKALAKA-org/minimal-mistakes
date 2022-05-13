@@ -161,11 +161,10 @@ nav .fa {
     width: 100%;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 0;
 }
 .join h1 {
     color: #000000;
-    margin-bottom: 40px;
+    font-size: 24px;
     padding-left: 100px;
 }
 @media(max-width: 700px) {
