@@ -158,7 +158,7 @@ nav .fa {
 /*----- Join Us -----*/
 .join {
     margin: 100px auto;
-    width: 100%;
+    width: 200%;
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
@@ -264,7 +264,12 @@ p {
     justify-content: space-between;
     transition: 0.5s;
 }
-.info-col {
+.info-col-1 {
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding-left: 100px;
+}
+.info-col-2 {
     flex-basis: 31%;
     margin-bottom: 5%;
     padding: 20px 12px;
