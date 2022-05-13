@@ -271,7 +271,7 @@ p {
 .info-col-2 {
     flex-basis: 31%;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding-right: 100px;
 }
 h3 {
     text-align: center;
