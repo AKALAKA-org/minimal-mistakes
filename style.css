@@ -254,6 +254,7 @@ p {
     justify-content: space-between;
 }
 .about-col {
+    column-gap: 40px;
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
