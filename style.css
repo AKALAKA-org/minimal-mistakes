@@ -51,8 +51,8 @@ nav img {
     display: block;
     position: absolute;
     background: #afe1af;
-    top: 25em;
-    left: 0;
+    margin-top: 5px;
+    margin-left: -15px;
     z-index: 10;
 }
 .nav-links ul li:hover .sub-menu-1 ul {
