@@ -359,12 +359,13 @@ h3 {
     text-align: center;
 }
 .testimonial-col {
+    column-gap: 40px;
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
     background: #fff3f3;
-    padding: 25%;
+    padding: 10%;
     cursor: pointer;
     display: flex;
 }
