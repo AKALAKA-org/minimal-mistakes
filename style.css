@@ -166,7 +166,7 @@ nav .fa {
 .join h1 {
     color: #000000;
     margin-bottom: 40px;
-    padding: 0;
+    padding-left: 100px;
 }
 @media(max-width: 700px) {
     .join h1 {
@@ -272,7 +272,7 @@ p {
 .info-col h1 {
     color: #000000;
     margin-bottom: 40px;
-    padding: 0;
+    padding-left: 100px;
 }
 h3 {
     text-align: center;
