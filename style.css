@@ -116,6 +116,8 @@ nav img {
     background: transparent;
     padding-left: 100px;
     position: relative;
+    left: 48px;
+    bottom: -10px;
     cursor: pointer;
 }
 .hero-btn-2:hover {
