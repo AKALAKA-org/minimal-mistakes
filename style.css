@@ -315,6 +315,7 @@ h3 {
     padding-top: 50px;
 }
 .offerings-col {
+    height: 80%;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
