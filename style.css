@@ -208,6 +208,7 @@ h1 {
     justify-content: space-between;
 }
 .medicaid-col {
+    display: flex;
     flex-basis: 50%;
     background-image: url(images/northcarolina.png);
     background-position: center;
@@ -220,6 +221,7 @@ h1 {
     transition: 0.5s;
 }
 .medicaid2-col {
+    display: flex;
     flex-basis: 50%;
     background-image: url(images/otherstate.png);
     background-position: center;
