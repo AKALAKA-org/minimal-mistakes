@@ -238,6 +238,7 @@ nav .fa {
     justify-content: space-between;
 }
 .join-col-right img {
+    object-fit: contain;
     width: 100%;
     height: 75%;
     display: block;
