@@ -213,28 +213,18 @@ h1 {
     justify-content: space-between;
 }
 .medicaid-col {
-    display: flex;
-    flex-basis: 50%;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+    flex-basis: 44%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 .medicaid2-col {
-    display: flex;
-    flex-basis: 50%;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+    flex-basis: 44%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 .medicaid-col img {
     width: 100%;
@@ -298,14 +288,22 @@ p {
     transition: 0.5s;
 }
 .info-col-1 {
-    flex-basis: 31%;
+    column-gap: 40px;
+    flex-basis: 44%;
+    border-radius: 10px;
     margin-bottom: 5%;
-    padding-left: 100px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 .info-col-2 {
-    flex-basis: 31%;
+    column-gap: 40px;
+    flex-basis: 44%;
+    border-radius: 10px;
     margin-bottom: 5%;
-    padding-right: 100px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 h3 {
     text-align: center;
