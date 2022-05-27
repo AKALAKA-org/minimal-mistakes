@@ -295,9 +295,11 @@ p {
     flex-basis: 50%;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 20px 0;
     box-sizing: border-box;
     justify-content: space-between;
+    text-align: center;
+    padding-right: 80px;
 }
 .info-col-2 {
     column-gap: 40px;
