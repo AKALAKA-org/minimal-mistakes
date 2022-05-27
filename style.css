@@ -233,6 +233,7 @@ h1 {
     display: block;
 }
 .medicaid2-col img {
+    object-fit: scale-down;
     width: 100%;
     height: 100%;
     display: block;
