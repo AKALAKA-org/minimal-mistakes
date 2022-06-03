@@ -687,6 +687,19 @@ h3 {
     color: #222;
     font-weight: 600;
     margin: 30px 0;
+    text-align: center;
+}
+.blog-left h3 {
+    color: #222;
+    font-weight: 500;
+    margin: 30px 0;
+    text-align: center;
+}
+.blog-left h4 {
+    color: #222;
+    font-weight: 400;
+    margin: 30px 0;
+    text-align: center;
 }
 .blog-left p {
     color: #999;
