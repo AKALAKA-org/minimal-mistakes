@@ -130,8 +130,8 @@ nav img {
     border-radius: 25px;
 }
 .hero-btn:hover {
-    border: 1px solid #fcbba0;
-    background: #fcbba0;
+    border: 1px solid #348c00;
+    background: #348c00;
     transition: 1s;
 }
 .hero-btn-2 {
@@ -149,8 +149,8 @@ nav img {
     border-radius: 25px;
 }
 .hero-btn-2:hover {
-    border: 1px solid #fcbba0;
-    background: #fcbba0;
+    border: 1px solid #348c00;
+    background: #348c00;
     transition: 1s;
 }
 .static-btn {
@@ -165,8 +165,8 @@ nav img {
     border-radius: 25px;
 }
 .static-btn:hover {
-    border: 1px solid #fcbba0;
-    background: #fcbba0;
+    border: 1px solid #348c00;
+    background: #348c00;
     transition: 1s;
 }
 nav .fa {
@@ -601,13 +601,13 @@ h3 {
 .about-col p {
     padding: 15px 0 25px;
 }
-.red-btn {
-    border: 1px solid #fcbba0;
+.green-btn {
+    border: 1px solid #348c00;
     background: transparent;
-    color: #fcbba0;
+    color: #348c00;
     border-radius: 25px;
 }
-.red-btn:hover {
+.green-btn:hover {
     color: #fff;
 }
 
