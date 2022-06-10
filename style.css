@@ -506,9 +506,11 @@ h1 {
 }
 .blog-box {
     width: 350px;
-    background-color: #ffffff;
-    border: 1px solid #ececec;
+    border: 1px solid #f58907;
+    flex-basis: 28%;
     margin: 20px;
+    height: 830px;
+    box-sizing: border-box;
 }
 .blog-img {
     width: 100%;
