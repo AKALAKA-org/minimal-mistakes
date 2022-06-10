@@ -612,6 +612,7 @@ h1 {
     text-align: left;
 }
 .testimonial-col .fa {
+    background: #fff3f3;
     color: #fcbba0;
 }
 @media(max-width: 700px) {
