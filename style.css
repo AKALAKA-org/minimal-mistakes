@@ -433,6 +433,7 @@ h1 {
     background: rgba(226, 0, 0, 0.7);
 }
 .layer h3 {
+    background: transparent;
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -449,6 +450,7 @@ h1 {
     opacity: 1;
 }
 .layer p {
+    background: transparent;
     width: 100%;
     font-weight: 200;
     color: #fff;
