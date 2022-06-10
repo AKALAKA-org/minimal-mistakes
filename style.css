@@ -125,7 +125,7 @@ nav img {
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
+    background: #348c00;
     position: relative;
     cursor: pointer;
     border-radius: 25px;
@@ -133,7 +133,7 @@ nav img {
 }
 .hero-btn-header:hover {
     border: 1px solid #348c00;
-    background: #348c00;
+    background: #fff;
     transition: 1s;
 }
 .hero-btn {
@@ -194,17 +194,18 @@ nav img {
 .static-btn {
     display: inline-block;
     text-decoration: none;
-    color: #000000;
-    border: 1px solid #000000;
+    color: #fff;
+    border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
     position: relative;
     cursor: pointer;
+    background: #348c00;
     border-radius: 25px;
 }
 .static-btn:hover {
     border: 1px solid #348c00;
-    background: #348c00;
+    background: #fff;
     transition: 1s;
 }
 nav .fa {
