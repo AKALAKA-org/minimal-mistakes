@@ -128,6 +128,7 @@ nav img {
     position: relative;
     cursor: pointer;
     border-radius: 25px;
+    margin-left: 5px;
 }
 .hero-btn:hover {
     border: 1px solid #348c00;
@@ -144,6 +145,7 @@ nav img {
     position: relative;
     cursor: pointer;
     border-radius: 25px;
+    color: #fff;
 }
 .hero-btn-join:hover {
     border: 1px solid #348c00;
@@ -631,11 +633,11 @@ h3 {
 .green-btn-2 {
     border: 1px solid #348c00;
     background: #348c00;
-    color: #348c00;
+    color: #fff;
     border-radius: 25px;
 }
 .green-btn-2:hover {
-    color: #fff;
+    color: #348c00;
 }
 
 /*----- Pricing Page -----*/
