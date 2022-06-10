@@ -603,9 +603,11 @@ h1 {
     border-radius: 50%;
 }
 .testimonial-col p {
+    background: #fff3f3;
     padding: 0;
 }
 .testimonial-col h3 {
+    background: #fff3f3;
     margin-top: 15px;
     text-align: left;
 }
