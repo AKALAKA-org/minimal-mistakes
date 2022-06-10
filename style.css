@@ -134,6 +134,22 @@ nav img {
     background: #348c00;
     transition: 1s;
 }
+.hero-btn-join {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: #348c00;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.hero-btn-join:hover {
+    border: 1px solid #348c00;
+    background: #fff;
+    transition: 1s;
+}
 .hero-btn-2 {
     display: inline-block;
     text-decoration: none;
