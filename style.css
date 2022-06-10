@@ -478,7 +478,8 @@ h1 {
     padding-top: 100px;
 }
 .blog h2 {
-    text-align:center;
+    text-align: center;
+    font-weight: 300;
 }
 .blog-heading {
     display: flex;
@@ -488,6 +489,7 @@ h1 {
 }
 .blog-heading span {
     color: #f33c3c;
+    font-size: x-large;
     padding-top: 50px;
 }
 .blog-heading h3 {
