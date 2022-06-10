@@ -118,6 +118,24 @@ nav img {
     justify-content: space-between;
     padding-right: 25px;
 }
+.hero-btn-header {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.hero-btn-header:hover {
+    border: 1px solid #348c00;
+    background: #348c00;
+    transition: 1s;
+}
 .hero-btn {
     display: inline-block;
     text-decoration: none;
@@ -130,6 +148,7 @@ nav img {
     cursor: pointer;
     border-radius: 25px;
     margin-left: 5px;
+    margin-top: 40px;
 }
 .hero-btn:hover {
     border: 1px solid #348c00;
