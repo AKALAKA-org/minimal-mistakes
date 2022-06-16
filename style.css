@@ -629,6 +629,10 @@ h1 {
 }
 
 /*----- Footer -----*/
+.footer a {
+    color: #348c00;
+    text-decoration: none;
+}
 .icons .fa {
     color: #348c00;
     margin: 0 13px;
