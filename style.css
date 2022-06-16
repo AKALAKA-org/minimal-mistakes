@@ -431,7 +431,7 @@ h1 {
     transition: 0.5s;
 }
 .layer:hover {
-    background: rgba(226, 0, 0, 0.7);
+    background: #348c00;
 }
 .layer h3 {
     background: transparent;
