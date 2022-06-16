@@ -215,6 +215,9 @@ nav .fa {
     .text-box h1 {
         font-size: 20px;
     }
+    .nav-links * {
+        background: #eeeeee;
+    }
     .nav-links ul li {
         display: block;
     }
@@ -240,7 +243,7 @@ nav .fa {
         padding: 30px;
     }
     .nav-links ul li a {
-        color: #fff;
+        color: #348c00;
         text-decoration: none;
         font-size: 13px;
     }
