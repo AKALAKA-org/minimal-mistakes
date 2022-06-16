@@ -364,7 +364,7 @@ h1 {
 }
 .about p {
     background: #fff3f3;
-    color: #777;
+    color: #000000;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -544,7 +544,7 @@ h1 {
     transition: all ease 0.3s;
 }
 .blog-text p {
-    color: #9b9b9b;
+    color: #000000;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
