@@ -475,7 +475,6 @@ h1 {
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 .blog h1 {
     padding-top: 100px;
