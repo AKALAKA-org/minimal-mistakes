@@ -249,10 +249,9 @@ nav .fa {
     }
 }
 
-
 /*----- Join Us -----*/
 .join {
-    margin: 100px auto;
+    margin: -75px auto;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -410,7 +409,7 @@ h1 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .offerings-col {
     flex-basis: 32%;
@@ -477,7 +476,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 0px;
 }
 .blog h1 {
     padding-top: 100px;
