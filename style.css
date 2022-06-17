@@ -284,9 +284,10 @@ nav .fa {
 }
 .join-col-right img {
     object-fit: contain;
-    width: 100%;
+    width: 90%;
     height: 75%;
     display: block;
+    padding-left: 32px;
 }
 @media(max-width: 700px) {
     .join h1 {
