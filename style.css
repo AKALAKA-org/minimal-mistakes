@@ -252,6 +252,7 @@ nav .fa {
 /*----- Join Us -----*/
 .join {
     margin: -45px auto;
+    margin-left: -15px;
     width: 100%;
     border-radius: 10px;
     text-align: center;
