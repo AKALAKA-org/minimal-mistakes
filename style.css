@@ -542,9 +542,17 @@ h1 {
     font-weight: 500;
     color: #348c00;
 }
-.blog-text .blog-title:hover {
-    color: #f33c3c;
-    transition: all ease 0.3s;
+.blog-text .blog-title::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fcbba0;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.blog-text .blog-title:hover::after {
+    width: 100%;
 }
 .blog-text p {
     color: #000000;
@@ -559,9 +567,17 @@ h1 {
     text-align: center;
     text-decoration: none;
 }
-.blog-text a:hover {
-    color: #f33c3c;
-    transition: all ease 0.3s;
+.blog-text a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fcbba0;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.blog-text a:hover::after {
+    width: 100%;
 }
 @media(max-width: 1250px) {
     .blog-box {
