@@ -639,7 +639,7 @@ h1 {
 }
 .testimonial-col .fa {
     background: #fcbba0;
-    color: #f58907;
+    color: #ffd700;
 }
 @media(max-width: 700px) {
     .testimonial-col img {
