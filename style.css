@@ -675,6 +675,10 @@ h1 {
 }
 
 /*----- Footer -----*/
+.footer {
+    align-items: center;
+    text-align: center;
+}
 .footer a {
     color: #348c00;
     text-decoration: none;
