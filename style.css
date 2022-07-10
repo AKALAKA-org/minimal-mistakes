@@ -297,6 +297,22 @@ nav .fa {
         transform: translate(17%, 0px);
     }
 }
+@media(max-width: 600px) {
+    .join h1 {
+        font-size: 24px;
+        color: #000000;
+        padding: 0px;
+        transform: translate(11%, 0px);
+    }
+}
+@media(max-width: 500px) {
+    .join h1 {
+        font-size: 24px;
+        color: #000000;
+        padding: 0px;
+        transform: translate(17%, 0px);
+    }
+}
 @media(max-width: 350px) {
     .join h1 {
         font-size: 24px;
