@@ -292,6 +292,17 @@ nav .fa {
 @media(max-width: 700px) {
     .join h1 {
         font-size: 24px;
+        color: #000000;
+        padding: 0px;
+        transform: translate(17%, 0px);
+    }
+}
+@media(max-width: 350px) {
+    .join h1 {
+        font-size: 24px;
+        color: #000000;
+        padding: 0px;
+        transform: translate(25%, 0px);
     }
 }
 
