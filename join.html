@@ -48,32 +48,265 @@
     <div id="wrapper">
         <div class="form-container">
             <span class="form-heading">Sign Up</span>
-            <form action="">
+            <form action="results.html" method="GET">
+                
                 <div class="input-group">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Preferred Name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="1. Preferred Name">
                     <span class="bar"></span>
                 </div>
+                
                 <div class="input-group">
                     <i class="fas fa-envelope"></i>
-                    <input type="email" placeholder="Email Address" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="2. Email Address" required>
                     <span class="bar"></span>
                 </div>
+                
                 <div class="input-group">
                     <i class="fas fa-phone"></i>
-                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="3. Phone Number">
                     <span class="bar"></span>
                 </div>
+                
                 <div class="input-group">
                     <i class="fas fa-cake-candles"></i>
-                    <input type="text" placeholder="Age" required>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="1" max="125" step="10" placeholder="4. Age Range" required>
                     <span class="bar"></span>
                 </div>
+                
                 <div class="input-group">
                     <i class="fas fa-flag-usa"></i>
-                    <input type="text" placeholder="State" required>
+                    <input type="text" placeholder="5. State" required>
                     <span class="bar"></span>
                 </div>
+                
+                 <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="6. Identify" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    Adult Feelings on Disability and Care
+                    
+                    <div>
+                        <label for="stressed">I feel stressed thinking about all my care needs</label>
+                        <input type="checkbox" name="stressed" id="stressed" placeholder="7. Adult Feelings" required>
+                    </div>
+                    
+                    <div>
+                        <label for="lonely">I feel lonely on my journey as an adult with an intellectual and/or developmental disability</label>
+                        <input type="checkbox" name="lonely" id="lonely" placeholder="7. Adult Feelings" required>
+                    </div>
+                    
+                    <div>
+                        <label for="access">I feel under-supported in accessing direct care providers for myself</label>
+                        <input type="checkbox" name="access" id="access" placeholder="7. Adult Feelings" required>
+                    </div>
+                                   
+                    <div>
+                        <label for="planning">I feel underprepared to plan services with Medicaid, Medicare, etc. for myself</label>
+                        <input type="checkbox" name="planning" id="planning" placeholder="7. Adult Feelings" required>
+                    </div>
+                    
+                    <div>
+                        <label for="financial">I feel under-supported in getting financial support for the direct and indirect costs of disability and care</label>
+                        <input type="checkbox" name="financial" id="financial" placeholder="7. Adult Feelings" required>
+                    </div>
+                    
+                    <div>
+                        <label for="emotion">I feel under-supported in getting socio-emotional support for myself</label>
+                        <input type="checkbox" name="emotion" id="emotion" placeholder="7. Adult Feelings" required>
+                    </div>
+
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="8. Adult Specific Conditions">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    Adult Support Activities
+                    
+                    <div>
+                        <label for="bathing">Bathing</label>
+                        <input type="checkbox" name="bathing" id="bathing" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="dressing">Dressing</label>
+                        <input type="checkbox" name="dressing" id="dressing" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="toileting">Toileting</label>
+                        <input type="checkbox" name="toileting" id="toileting" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="feeding">Feeding</label>
+                        <input type="checkbox" name="feeding" id="feeding" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="transferring">Transferring (i.e. physically moving from one position to another)</label>
+                        <input type="checkbox" name="transferring" id="transferring" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="walking">Walking or moving around (including with assistive equipment)</label>
+                        <input type="checkbox" name="walking" id="walking" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="food">Food preparation (e.g. cooking)</label>
+                        <input type="checkbox" name="food" id="food" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="shopping">Shopping (e.g. groceries)</label>
+                        <input type="checkbox" name="shopping" id="shopping" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="finances">Managing finances (e.g. paying bills)</label>
+                        <input type="checkbox" name="finances" id="finances" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="housekeeping">Housekeeping (e.g. washing dishes, cleaning home)</label>
+                        <input type="checkbox" name="housekeeping" id="housekeeping" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="laundry">Doing laundry</label>
+                        <input type="checkbox" name="laundry" id="laundry" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="transportation">Using transportation (e.g. driving, taking the bus or train)</label>
+                        <input type="checkbox" name="transportation" id="transportation" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="communicating">Communicating with others (e.g. using the phone, emailing)</label>
+                        <input type="checkbox" name="communicating" id="communicating" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <div>
+                        <label for="managing">Managing appointments and timed activities (e.g. medication regimen)</label>
+                        <input type="checkbox" name="managing" id="managing" placeholder="9. Adult Support Activities">
+                    </div>
+                    
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="10. Adult Journey Heart Desires" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="7. Sibling Age Range" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="8. Sibling State" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="9. Sibling Stage of Caregiving" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="10. Sibling Feelings on Caregiving" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="11. Sibling Support Activities">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="12. Sibling Journey Heart Desires" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="13. Other Comments/Questions">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="14. How found about AKALAKA">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="15. Medicaid Form Eligible">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="16. Separate Program Registration">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="17. Not registered, click here">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <label for="date">Waiver Start Plan Date</label>
+                    <input type="date" name="date" id="date" placeholder="18. Enter Waiver Start Plan Date">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="19. Requested Funding this Plan Year for Participant Training Services">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="20. Requested Funding this Plan Year for Counseling Training Services">
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa"></i>
+                    <input type="text" placeholder="21. Case Manager Based on Area">
+                    <span class="bar"></span>
+                </div>
+                
+                <!--
                 <div class="input-group">
                     <button>
                         <i class="fas fa-people"></i>
@@ -85,6 +318,7 @@
                         <i class="fas fa-people-group"></i>
                     </button>
                 </div>
+                -->
                 <div class="switch-login">
                     <a href="#">Already have an account? <span>Login</span></a>
                 </div>
