@@ -741,61 +741,203 @@ h1 {
 }
 
 /*----- Pricing Page -----*/
+.questionnaire {
+    box-sizing: border-box;
+}
+
+.questionnaire html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.questionnaire body {
+    background-color: #eeeeee;
+}
+
+.questionnaire #wrapper {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionnaire .form-container {
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    position: relative;
+    padding: 10rem 0;
+    box-shadow: 0 1px 1.5px #eeeeee;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.questionnaire .form-heading {
+    color: #000000;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 10rem;
+}
+
+.questionnaire form {
+    transform: translateX(10rem);
+    padding: 2rem 0;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1px 1.5px #eeeeee;
+}
+
+.questionnaire .input-group {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.questionnaire .input-group input {
+    position: relative;
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+.questionnaire .input-group > i {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #000000;
+}
+
+.questionnaire .input-group .bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    width: 100%;
+    height: 1px;
+}
+
+.questionnaire .input-group .bar::before {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+    width: 0;
+    height: 2px;
+    transition: width 650ms;
+}
+
+.input-group input:focus + .bar::before {
+    width: 100%;
+}
+
+.questionnaire .input-group button {
+    margin: 3rem auto;
+    padding: 1rem 5rem;
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.switch-login {
+    text-align: center;
+}
+
+.questionnaire .switch-login a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.questionnaire .switch-login a span {
+    color: #000000;
+}
+
+.questionnaire .switch-login a span:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000000;
+}
+
+@media screen and (max-width: 700px) {
+    .questionnaire .form-container::before {
+        height: 10rem;
+    }
+    
+    .questionnaire .form-heading {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .questionnaire form {
+        border-radius: initial;
+        transform: initial;
+        box-shadow: none;
+    }
+}
+
 .columns {
-  box-sizing: border-box;
-  float: left;
-  width: 50%;
-  padding: 8px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 8px;
 }
 .price {
-  list-style-type: none;
-  border: 1px solid #fcbba0;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+    list-style-type: none;
+    border: 1px solid #fcbba0;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 .price:hover {
-  box-shadow: 0 8px 12px 0 #fcbba0
+    box-shadow: 0 8px 12px 0 #fcbba0
 }
 .price .header-col {
-  background-color: #f58907;
-  color: black;
-  font-size: 25px;
+    background-color: #f58907;
+    color: black;
+    font-size: 25px;
 }
 .price li {
-  border-bottom: 1px solid #fcbba0;
-  padding: 20px;
-  text-align: center;
+    border-bottom: 1px solid #fcbba0;
+    padding: 20px;
+    text-align: center;
 }
 .price .grey {
-  background-color: #fcbba0;
-  font-size: 20px;
+    background-color: #fcbba0;
+    font-size: 20px;
 }
 .button {
-  background-color: #348c00;
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 12px;
+    background-color: #348c00;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
 }
 .button:hover {
-  background-color: #eee;
-  color: #348c00;
-  border: 2px solid #348c00;
+    background-color: #eee;
+    color: #348c00;
+    border: 2px solid #348c00;
 }
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
+    .columns {
+        width: 100%;
+    }
 }
 
 /*----- Blog Content -----*/
