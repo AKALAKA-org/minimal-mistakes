@@ -66,7 +66,8 @@
                 
                 <div class="input-group">
                     <i class="fas fa-phone"></i>
-                    <input type="text" placeholder="3. Phone Number">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" placeholder="3. Phone Number">
                     <span class="bar"></span>
                 </div>
                 
@@ -79,13 +80,15 @@
                 
                 <div class="input-group">
                     <i class="fas fa-flag-usa"></i>
-                    <input type="text" placeholder="5. State" required>
+                    <label for="state">State</label>
+                    <input type="text" name="state" id="state" placeholder="5. State" required>
                     <span class="bar"></span>
                 </div>
                 
                  <div class="input-group">
                     <i class="fas fa"></i>
-                    <input type="text" placeholder="6. Identify" required>
+                    <label for="identify">Identify</label>
+                    <input type="text" name="identify" id="identify" placeholder="6. Identify" required>
                     <span class="bar"></span>
                 </div>
                 
@@ -128,7 +131,8 @@
                 
                 <div class="input-group">
                     <i class="fas fa"></i>
-                    <input type="text" placeholder="8. Adult Specific Conditions">
+                    <label for="conditions">State</label>
+                    <input type="text" name="conditions" id="conditions" placeholder="8. Adult Specific Conditions">
                     <span class="bar"></span>
                 </div>
                 
@@ -211,31 +215,76 @@
                 
                 <div class="input-group">
                     <i class="fas fa"></i>
-                    <input type="text" placeholder="10. Adult Journey Heart Desires" required>
+                    <label for="desires">Desires</label>
+                    <input type="text" name="desires" id="desires" placeholder="10. Adult Journey Heart Desires" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-cake-candles"></i>
+                    <label for="sibling-age">Sibling Age</label>
+                    <input type="number" name="sibling-age" id="sibling-age" min="1" max="125" step="10" placeholder="7. Sibling Age Range" required>
+                    <span class="bar"></span>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-flag-usa"></i>
+                    <label for="sibling-state">Sibling State</label>
+                    <input type="text" name="sibling-state" id="sibling-state" placeholder="8. Sibling State" required>
                     <span class="bar"></span>
                 </div>
                 
                 <div class="input-group">
                     <i class="fas fa"></i>
-                    <input type="text" placeholder="7. Sibling Age Range" required>
+                    <label for="stage">Sibling Stage of Caregiving</label>
+                    <input type="text" name="stage" id="stage" placeholder="9. Sibling Stage of Caregiving" required>
                     <span class="bar"></span>
                 </div>
                 
                 <div class="input-group">
                     <i class="fas fa"></i>
-                    <input type="text" placeholder="8. Sibling State" required>
-                    <span class="bar"></span>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fas fa"></i>
-                    <input type="text" placeholder="9. Sibling Stage of Caregiving" required>
-                    <span class="bar"></span>
-                </div>
-                
-                <div class="input-group">
-                    <i class="fas fa"></i>
-                    <input type="text" placeholder="10. Sibling Feelings on Caregiving" required>
+                    Sibling Feelings on Caregiving
+                    
+                    <div>
+                        <label for="stressed">I feel stressed thinking about all my caregiving responsibilities</label>
+                        <input type="checkbox" name="stressed" id="stressed" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="lonely">I feel lonely on my journey as a caregiver</label>
+                        <input type="checkbox" name="lonely" id="lonely" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="underprepared-care">I feel underprepared to provide direct care to my sibling</label>
+                        <input type="checkbox" name="underprepared-care" id="underprepared-care" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="underprepared-services">I feel underprepared to plan services with Medicaid, Medicare, etc. for my sibling</label>
+                        <input type="checkbox" name="underprepared-services" id="underprepared-services" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="undersupported-financial">I feel undersupported in getting financial support for the direct and indirect costs of disability and care</label>
+                        <input type="checkbox" name="undersupported-financial" id="undersupported-financial" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="undersupported-emotional">I feel undersupported in getting socio-emotional support for myself to sustainably care for my sibling at home or in our community</label>
+                        <input type="checkbox" name="undersupported-emotional" id="undersupported-emotional" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="undersupported-planning">I feel undersupported in end-of-life planning for my sibling</label>
+                        <input type="checkbox" name="undersupported-planning" id="undersupported-planning" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
+                    <div>
+                        <label for="undersupported-navigating">I feel undersupported in navigating my feelings of grief and bereavement as I transition out of the caregiving role</label>
+                        <input type="checkbox" name="undersupported-navigating" id="undersupported-navigating" placeholder="10. Sibling Feelings on Caregiving" required>
+                    </div>
+                    
                     <span class="bar"></span>
                 </div>
                 
