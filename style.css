@@ -756,17 +756,13 @@ h1 {
 
 .questionnaire #wrapper {
     width: 90%;
-    height: 100vh;
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .questionnaire .form-container {
     width: 100%;
     max-width: 40rem;
-    background-color: #fff;
     position: relative;
     padding: 10rem 0;
     box-shadow: 0 1px 1.5px #eeeeee;
@@ -785,13 +781,11 @@ h1 {
 .questionnaire form {
     transform: translateX(10rem);
     padding: 2rem 0;
-    background-color: #fff;
     border-radius: 1rem;
     box-shadow: 0 1px 1.5px #eeeeee;
 }
 
 .questionnaire .input-group {
-    width: 90%;
     margin: 0 auto;
     position: relative;
     display: flex;
