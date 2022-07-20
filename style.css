@@ -741,7 +741,7 @@ h1 {
 }
 
 /*----- Pricing Page -----*/
-.questionnaire {
+/*.questionnaire {
     box-sizing: border-box;
 }
 
@@ -875,7 +875,7 @@ h1 {
         transform: initial;
         box-shadow: none;
     }
-}
+} */
 
 .columns {
     box-sizing: border-box;
