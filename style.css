@@ -741,6 +741,16 @@ h1 {
 }
 
 /*----- Pricing Page -----*/
+section.questionnaire {
+    margin-left: 10px;
+}
+span.form-heading {
+    font-size: 24px;
+}
+.input-group {
+    padding: 10px 0;
+}
+
 /*.questionnaire {
     box-sizing: border-box;
 }
