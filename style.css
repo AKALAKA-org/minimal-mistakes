@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 *{
     background-color: #eeeeee;
     margin: 0;
@@ -252,21 +254,183 @@ nav .fa {
 /*----- Sign Up -----*/
 .signup {
     box-sizing: border-box;
-    outline: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*outline: none;
     font-family: Quicksand, sans-serif;
     margin-top: 150px;
-    margin-bottom: 300px;
-}
-
-.signup html {
-    font-size: 62.5%;
+    margin-bottom: 300px;*/
 }
 
 .signup .container {
+    position: relative;
+    max-width: 430px;
     width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.signup .container .forms {
     display: flex;
-    justify-content: center;
     align-items: center;
+    height: 430px;
+    width: 200%;
+    transition: height 0.2s ease;
+}
+
+.signup .container .form {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    transition: margin-left 0.18s ease;
+}
+
+.signup .container.active .login {
+    margin-left: -50%;
+    opacity: 0;
+    transition: margin-left 0.18s ease, opacity 0.15s ease;
+}
+
+.signup .container .signupform {
+    opacity: 0;
+    transition: opacity 0.09s ease;
+}
+
+.signup .container.active .signupform {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.signup .container.active .forms {
+    height: 599px;
+}
+
+.signup .container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.signup .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #f58907;
+    border-radius: 25px;
+}
+
+.signup .form .input-group {
+    background-color: #eeeeee;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.signup .input-group input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #555;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.signup .input-group input:is(:focus, :valid) {
+    border-bottom-color: #f58907;
+}
+
+.signup .input-group i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+}
+
+.signup .input-group input:is(:focus, :valid) ~ i {
+    color: #f58907;
+}
+
+.signup .input-group i.icon {
+    left: 0;
+}
+
+.signup .input-group i.showHidePw {
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.signup .form .checkbox-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signup .checkbox-row .checkbox-info {
+    display: flex;
+    align-items: center;
+}
+
+.signup .checkbox-info input {
+    margin: 0 8px -2px 4px;
+    accent-color: #f58907;
+}
+
+.signup .form .text {
+    color: #555;
+    font-size: 14px;
+}
+
+.signup .form a.text {
+    color: #f58907;
+    text-decoration: none;
+}
+
+.signup .form a:hover {
+    text-decoration: underline;
+}
+
+.signup .form .button {
+    margin-top: 35px;
+}
+
+.signup .form .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f58907;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signup .button input:hover {
+    background-color: #fcbba0;
+}
+
+.signup .form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*.signup html {
+    font-size: 62.5%;
 }
 
 .signup .form-wrapper {
@@ -301,7 +465,7 @@ nav .fa {
 
 .signup .banner p {
     font-size: 2rem;
-}
+}*/
 
 /*.signup .color-bg {
     width: 100%;
@@ -314,9 +478,9 @@ nav .fa {
     transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }*/
 
-.signup .container.change .color-bg {
+/*.signup .container.change .color-bg {
     width: 40%;
-}
+}*/
 
 /*.signup .color-bg button {
     position: absolute;
@@ -334,7 +498,7 @@ nav .fa {
     cursor: pointer;
 }*/
 
-.signup .signup-form {
+/*.signup .signup-form {
     width: 50rem;
     position: absolute;
     top: 0;
@@ -412,7 +576,7 @@ nav .fa {
     transform: translateY(-50%);
     font-size: 1.2rem;
     color: #eeeeee;
-}
+}*/
 
 /*----- Join Us -----*/
 .join {
