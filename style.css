@@ -249,6 +249,171 @@ nav .fa {
     }
 }
 
+/*----- Sign Up -----*/
+.signup {
+    box-sizing: border-box;
+    outline: none;
+    font-family: Quicksand, sans-serif;
+}
+
+.signup html {
+    font-size: 62.5%;
+}
+
+.signup .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .form-wrapper {
+    width: 100rem;
+    height: 70rem;
+    background-color: #eee;
+    border-radius: 3rem;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.signup .banner {
+    position: absolute;
+    top: 25%;
+    left: -30rem;
+    text-align: center;
+    color: #fff;
+    width: 30rem;
+    z-index: 100;
+    transition: left 0.8s;
+}
+
+.signup .container.change .banner {
+    left: 5rem;
+}
+
+.signup .banner h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.signup .banner p {
+    font-size: 2rem;
+}
+
+.signup .color-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f58907, #fcbba0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.signup .container.change .color-bg {
+    width: 40%;
+}
+
+.signup .color-bg button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16rem;
+    height: 5rem;
+    background-color: transparent;
+    border: 0.1rem solid #fff;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup .signup-form {
+    width: 60rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0;
+    transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.signup .container.change .signup-form {
+    left: 40rem;
+}
+
+.signup .signup-form h1 {
+    font-size: 4rem;
+    color: #f58907
+}
+
+.signup .signup-form p {
+    font-size: 1.8rem;
+    color: #eeeeee;
+    margin-bottom: 2rem;
+}
+
+.signup .signup-form button {
+    width: 16rem;
+    height: 5rem;
+    background-color: #f58907;
+    border: none;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.signup .social-media {
+    display: flex;
+}
+
+.signup .social-media i {
+    width: 4rem;
+    height: 4rem;
+    border: 0.1rem solid #eeeeee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #eeeeee;
+}
+
+.signup .input-group {
+    position: relative;
+}
+
+.signup .input-group input {
+    width: 28rem;
+    height: 5rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.signup .input-group i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+
 /*----- Join Us -----*/
 .join {
     margin: -45px auto;
