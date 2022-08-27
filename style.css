@@ -274,12 +274,12 @@ nav .fa {
     display: flex;
     align-items: center;
     height: 430px;
-    width: 200%;
+    width: 140%;
     transition: height 0.2s ease;
 }
 
 .signup-container .signup-form-login {
-    width: 50%;
+    width: 65%;
     padding: 30px;
     background-color: #fff;
     transition: margin-left 0.18s ease;
@@ -333,7 +333,7 @@ nav .fa {
 .signup-input-group input {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 85%;
     padding: 0 35px;
     border: none;
     outline: none;
@@ -402,6 +402,7 @@ nav .fa {
 
 .signup-form-login .button {
     margin-top: 35px;
+    margin-left: -200px;
 }
 
 .signup-form-login .button input {
