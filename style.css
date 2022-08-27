@@ -258,10 +258,6 @@ nav .fa {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*outline: none;
-    font-family: Quicksand, sans-serif;
-    margin-top: 150px;
-    margin-bottom: 300px;*/
 }
 
 .signup-container {
@@ -282,7 +278,7 @@ nav .fa {
     transition: height 0.2s ease;
 }
 
-.signup-container .form {
+.signup-container .signup-form-login {
     width: 50%;
     padding: 30px;
     background-color: #fff;
@@ -309,13 +305,13 @@ nav .fa {
     height: 599px;
 }
 
-.signup-container .form .signup-title {
+.signup-container .signup-form-login .signup-title {
     position: relative;
     font-size: 27px;
     font-weight: 600;
 }
 
-.form .signup-title::before {
+.signup-form-login .signup-title::before {
     content: '';
     position: absolute;
     left: 0;
@@ -326,7 +322,7 @@ nav .fa {
     border-radius: 25px;
 }
 
-.form .signup-input-group {
+.signup-form-login .signup-input-group {
     background-color: #eeeeee;
     position: relative;
     height: 50px;
@@ -373,7 +369,7 @@ nav .fa {
     padding: 10px;
 }
 
-.form .signup-checkbox-row {
+.signup-form-login .signup-checkbox-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -390,25 +386,25 @@ nav .fa {
     accent-color: #f58907;
 }
 
-.form .text {
+.signup-form-login .text {
     color: #555;
     font-size: 14px;
 }
 
-.form a.text {
+.signup-form-login a.text {
     color: #f58907;
     text-decoration: none;
 }
 
-.form a:hover {
+.signup-form-login a:hover {
     text-decoration: underline;
 }
 
-.form .button {
+.signup-form-login .button {
     margin-top: 35px;
 }
 
-.form .button input {
+.signup-form-login .button input {
     border: none;
     color: #fff;
     font-size: 17px;
@@ -424,7 +420,7 @@ nav .fa {
     background-color: #fcbba0;
 }
 
-.form .signup-login-signup {
+.signup-form-login .signup-login-signup {
     margin-top: 30px;
     text-align: center;
 }
