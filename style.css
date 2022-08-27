@@ -330,6 +330,31 @@ nav .fa {
     margin-top: 30px;
 }
 
+.signup-container .signup-form-signup .signup-title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.signup-form-signup .signup-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #f58907;
+    border-radius: 25px;
+}
+
+.signup-form-signup .signup-input-group {
+    background-color: #eeeeee;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
 .signup-input-group input {
     position: absolute;
     height: 100%;
@@ -370,6 +395,13 @@ nav .fa {
 }
 
 .signup-form-login .signup-checkbox-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signup-form-signup .signup-checkbox-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -417,11 +449,47 @@ nav .fa {
     transition: all 0.3s ease;
 }
 
+.signup-form-signup .text {
+    color: #555;
+    font-size: 14px;
+}
+
+.signup-form-signup a.text {
+    color: #f58907;
+    text-decoration: none;
+}
+
+.signup-form-signup a:hover {
+    text-decoration: underline;
+}
+
+.signup-form-signup .button {
+    margin-top: 35px;
+    margin-left: -200px;
+}
+
+.signup-form-signup .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f58907;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .button input:hover {
     background-color: #fcbba0;
 }
 
 .signup-form-login .signup-login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.signup-form-signup .signup-login-signup {
     margin-top: 30px;
     text-align: center;
 }
