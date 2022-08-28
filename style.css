@@ -404,7 +404,7 @@ nav .fa {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: 20px;
     background-color: #fff;
 }
 
