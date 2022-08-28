@@ -382,6 +382,7 @@ nav .fa {
     transform: translateY(-50%);
     color: #999;
     font-size: 23px;
+    background-color: #fff;
 }
 
 .signup-input-group input:is(:focus, :valid) ~ i {
