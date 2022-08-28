@@ -481,7 +481,9 @@ nav .fa {
 
 .signup-form-signup .button {
     margin-top: 35px;
-    margin-left: -200px;
+    margin-left: -65px;
+    bottom: 37px;
+    right: 88px;
 }
 
 .signup-form-signup .button input {
