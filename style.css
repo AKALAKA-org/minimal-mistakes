@@ -292,6 +292,10 @@ nav .fa {
     transition: margin-left 0.18s ease, opacity 0.15s ease;
 }
 
+.signup-form-signup {
+    margin-left: -60px;
+}
+
 .signup-container .signup-form-signup {
     opacity: 0;
     transition: opacity 0.09s ease;
