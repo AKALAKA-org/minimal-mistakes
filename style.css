@@ -472,6 +472,7 @@ nav .fa {
 .signup-form-signup a.text {
     color: #f58907;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .signup-form-signup a:hover {
