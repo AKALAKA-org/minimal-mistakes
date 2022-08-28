@@ -275,6 +275,7 @@ nav .fa {
     align-items: center;
     height: 430px;
     width: 140%;
+    background-color: #fff;
     transition: height 0.2s ease;
 }
 
@@ -309,6 +310,7 @@ nav .fa {
     position: relative;
     font-size: 27px;
     font-weight: 600;
+    background-color: #fff;
 }
 
 .signup-form-login .signup-title::before {
@@ -323,10 +325,10 @@ nav .fa {
 }
 
 .signup-form-login .signup-input-group {
-    background-color: #eeeeee;
     position: relative;
     height: 50px;
     width: 100%;
+    background-color: #fff;
     margin-top: 30px;
 }
 
@@ -334,6 +336,7 @@ nav .fa {
     position: relative;
     font-size: 27px;
     font-weight: 600;
+    background-color: #fff;
 }
 
 .signup-form-signup .signup-title::before {
@@ -348,10 +351,10 @@ nav .fa {
 }
 
 .signup-form-signup .signup-input-group {
-    background-color: #eeeeee;
     position: relative;
     height: 50px;
     width: 100%;
+    background-color: #fff;
     margin-top: 30px;
 }
 
@@ -359,6 +362,7 @@ nav .fa {
     position: absolute;
     height: 100%;
     width: 85%;
+    background-color: #fff;
     padding: 0 35px;
     border: none;
     outline: none;
@@ -382,6 +386,7 @@ nav .fa {
 
 .signup-input-group input:is(:focus, :valid) ~ i {
     color: #f58907;
+    background-color: #fff;
 }
 
 .signup-input-group i.icon {
@@ -399,6 +404,7 @@ nav .fa {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    background-color: #fff;
 }
 
 .signup-form-signup .signup-checkbox-row {
@@ -406,11 +412,13 @@ nav .fa {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    background-color: #fff;
 }
 
 .signup-checkbox-row .signup-checkbox-info {
     display: flex;
     align-items: center;
+    background-color: #fff;
 }
 
 .signup-checkbox-info input {
@@ -421,6 +429,7 @@ nav .fa {
 .signup-form-login .text {
     color: #555;
     font-size: 14px;
+    background-color: #fff;
 }
 
 .signup-form-login a.text {
@@ -452,6 +461,7 @@ nav .fa {
 .signup-form-signup .text {
     color: #555;
     font-size: 14px;
+    background-color: #fff;
 }
 
 .signup-form-signup a.text {
@@ -487,11 +497,13 @@ nav .fa {
 .signup-form-login .signup-login-signup {
     margin-top: 30px;
     text-align: center;
+    background-color: #fff;
 }
 
 .signup-form-signup .signup-login-signup {
     margin-top: 30px;
     text-align: center;
+    background-color: #fff;
 }
 
 /*.signup html {
