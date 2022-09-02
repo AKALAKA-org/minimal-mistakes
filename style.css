@@ -280,7 +280,7 @@ nav .fa {
 }
 
 .signup-container .signup-form-login {
-    width: 65%;
+    width: 55%;
     padding: 30px;
     background-color: #fff;
     transition: margin-left 0.18s ease;
@@ -293,7 +293,7 @@ nav .fa {
 }
 
 .signup-form-signup {
-    margin-left: -60px;
+    margin-left: -70px;
 }
 
 .signup-container .signup-form-signup {
@@ -333,7 +333,7 @@ nav .fa {
     height: 50px;
     width: 100%;
     background-color: #fff;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .signup-container .signup-form-signup .signup-title {
@@ -341,6 +341,9 @@ nav .fa {
     font-size: 27px;
     font-weight: 600;
     background-color: #fff;
+    padding-bottom: 7px;
+    padding-right: 105px;
+    padding-top: 1px;
 }
 
 .signup-form-signup .signup-title::before {
@@ -359,7 +362,7 @@ nav .fa {
     height: 50px;
     width: 100%;
     background-color: #fff;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .signup-input-group input {
@@ -401,7 +404,7 @@ nav .fa {
 .signup-input-group i.showHidePw {
     right: 0;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
 }
 
 .signup-form-login .signup-checkbox-row {
@@ -447,8 +450,9 @@ nav .fa {
 }
 
 .signup-form-login .button {
-    margin-top: 35px;
-    margin-left: -200px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-right: 60px;
 }
 
 .signup-form-login .button input {
@@ -480,10 +484,9 @@ nav .fa {
 }
 
 .signup-form-signup .button {
-    margin-top: 35px;
-    margin-left: -65px;
-    bottom: 37px;
-    right: 88px;
+    top: -5px;
+    padding-bottom: 10px;
+    padding-right: 50px;
 }
 
 .signup-form-signup .button input {
@@ -503,13 +506,13 @@ nav .fa {
 }
 
 .signup-form-login .signup-login-signup {
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
     background-color: #fff;
 }
 
 .signup-form-signup .signup-login-signup {
-    margin-top: 30px;
+    margin-top: -5px;
     text-align: center;
     background-color: #fff;
 }
