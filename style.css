@@ -279,6 +279,11 @@ nav .fa {
     transition: height 0.2s ease;
 }
 
+.signup-form-login {
+    margin-left: 55px;
+    margin-right: -45px;
+}
+
 .signup-container .signup-form-login {
     width: 55%;
     background-color: #fff;
