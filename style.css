@@ -281,7 +281,6 @@ nav .fa {
 
 .signup-container .signup-form-login {
     width: 55%;
-    padding: 30px;
     background-color: #fff;
     transition: margin-left 0.18s ease;
 }
@@ -293,7 +292,7 @@ nav .fa {
 }
 
 .signup-form-signup {
-    margin-left: -70px;
+    margin-left: 75px;
 }
 
 .signup-container .signup-form-signup {
@@ -402,7 +401,7 @@ nav .fa {
 }
 
 .signup-input-group i.showHidePw {
-    right: 0;
+    right: -35px;
     cursor: pointer;
     padding: 8px;
 }
@@ -412,6 +411,8 @@ nav .fa {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: -30px;
     background-color: #fff;
 }
 
@@ -420,6 +421,8 @@ nav .fa {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 0px;
     background-color: #fff;
 }
 
@@ -450,9 +453,12 @@ nav .fa {
 }
 
 .signup-form-login .button {
-    margin-top: 0px;
-    padding-top: 5px;
-    padding-right: 60px;
+    margin-top: -18px;
+    margin-left: 35px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    right: 55px;
 }
 
 .signup-form-login .button input {
@@ -485,8 +491,10 @@ nav .fa {
 
 .signup-form-signup .button {
     top: -5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 50px;
+    right: -1px;
 }
 
 .signup-form-signup .button input {
@@ -506,13 +514,15 @@ nav .fa {
 }
 
 .signup-form-login .signup-login-signup {
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-left: 25px;
     text-align: center;
     background-color: #fff;
 }
 
 .signup-form-signup .signup-login-signup {
     margin-top: -5px;
+    padding-top: 12px;
     text-align: center;
     background-color: #fff;
 }
@@ -1335,21 +1345,6 @@ span.form-heading {
 .price .grey {
     background-color: #fcbba0;
     font-size: 20px;
-}
-.button {
-    background-color: #348c00;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 12px;
-}
-.button:hover {
-    background-color: #eee;
-    color: #348c00;
-    border: 2px solid #348c00;
 }
 .center {
     display: block;
