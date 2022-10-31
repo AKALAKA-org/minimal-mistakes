@@ -356,39 +356,236 @@
     
 <!----- Survey Quiz ----->
 <section>
-    <h2>
-        Have any questions about community caregiving? Answer the following questions below to get immediate support.
-    </h2>
-    
-    <div id="question_box" class="item_box clearfix">
-        <span id="question_text">
-        </span>
-    </div>
-    
-    <table class="table table_activity" style="width:100%">
-        <tr>
-            <td class="pic1">
-                <img id="image_q1p1" name="Adult Caregiver" src="images/adult_caregiver.jpeg">
-            </td>
-            <td class="pic2">
-                <img id="image_q1p2" name="Sibling Caregiver" src="images/sibling_caregiving.png">
-            </td>
-            <td class="pic3">
-                <img id="image_q1p3" name="Other Caregiver" src="images/other_caregiver.png">
-            </td>
-            <td class="pic4">
-                <img id="image_q1p4" name="Social Worker" src="images/social_worker.jpeg">
-            </td>
-        </tr>
-    </table>
-    
-    <div id="question_response" class="hide_question"></div>
-    <button id="next_question" class="hide_question pull-right clearfix">
-        Next Question
-    </button>
-    <button id="reset" class="pull-right hide_question clearfix">
-        Restart
-    </button>
+    <form action="" method="post">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="tm-question-header">Question 1</h2>
+                    <p>Who are you?</p>
+                    <div class="tm-q-choice-container">
+                        <label class="tm-q-choice">
+                            <div class="mb-3">
+                                <input class="tm-radio-group-1 with-gap" name="q1" type="radio" value="q1_a1">
+                                <span>A. Adult with I/DD</span>
+                            </div>
+                            <img src="img/img-3x2-1.jpg" alt="Image" class="">
+                        </label>
+                        <label class="tm-q-choice">
+                            <div class="mb-3">
+                                <input class="tm-radio-group-1 with-gap" name="q1" type="radio" value="q1_a2">
+                                <span>B. Sibling of Adult with I/DD</span>
+                            </div>
+                            <img src="img/img-3x2-2.jpg" alt="Image" class="darken">
+                        </label>
+                        <label class="tm-q-choice">
+                            <div class="mb-3">
+                                <input class="tm-radio-group-1 with-gap" name="q1" type="radio" value="q1_a3">
+                                <span>C. Other Care Partner of Adult with I/DD</span>
+                            </div>
+                            <img src="img/img-3x2-3.jpg" alt="Image">
+                        </label>
+                        <label class="tm-q-choice">
+                            <div class="mb-3">
+                                <input class="tm-radio-group-1 with-gap" name="q1" type="radio" value="q1_a4">
+                                <span>D. Professional Social Worker</span>
+                            </div>
+                            <img src="img/img-3x2-4.jpg" alt="Image">
+                        </label>
+                    </div>
+                </div> <!-- col-12 -->
+                <div class="col-12">
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <h2 class="tm-question-header tm-question-header-mt">Question 2</h2>
+                    <p>What would you like help with?</p>
+                    <div class="tm-q-choice-container">
+                        <label class="tm-q-choice tm-q-choice-2-col">
+                            <div class="mb-3">
+                                <input type="checkbox" name="q2[]" class="filled-in tm-checkbox" value="q2_a1">
+                                <span>a) Connecting with peers</span>
+                            </div>
+                            <img src="img/img-1x1-1.jpg" alt="Image" class="img-fluid">
+                        </label>
+                        <label class="tm-q-choice tm-q-choice-2-col">
+                            <div class="mb-3">
+                                <input type="checkbox" name="q2[]" class="filled-in tm-checkbox" value="q2_a2">
+                                <span>b) Gaining clarity with navigating Medicaid Waiver</span>
+                            </div>
+                            <img src="img/img-1x1-2.jpg" alt="Image" class="img-fluid">
+                        </label>
+                        <label class="tm-q-choice tm-q-choice-2-col">
+                            <div class="mb-3">
+                                <input type="checkbox" name="q2[]" class="filled-in tm-checkbox" value="q2_a3">
+                                <span>c) Gaining confidence with requesting services with social worker</span>
+                            </div>
+                            <img src="img/img-1x1-3.jpg" alt="Image" class="img-fluid">
+                        </label>
+                        <label class="tm-q-choice tm-q-choice-2-col">
+                            <div class="mb-3">
+                                <input type="checkbox" name="q2[]" class="filled-in tm-checkbox" value="q2_a4">
+                                <span>d) Other - Explain in "other desires" box below</span>
+                            </div>
+                            <img src="img/img-1x1-4.jpg" alt="Image" class="img-fluid">
+                        </label>
+                    </div>
+                </div> <!-- col-12 -->
+                <div class="col-12">
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <h2 class="tm-question-header tm-question-header-mt">Question 3</h2>
+                    <p class="mb-0">are you enrolled in the NC Innovations or TBI Waiver Program?</p>
+                    <div class="tm-q3-choice-container">
+                        <label class="tm-q3-choice tm-q-choice-2-col">
+                            <img src="img/img-2x3-1.jpg" alt="Image" class="img-fluid">
+                            <div class="mt-4">
+                                <input type="radio" name="q3" class="tm-radio-group-2 with-gap" value="q3_a1">
+                                <span>Yes</span>
+                            </div>
+                        </label>
+                        <label class="tm-q3-choice tm-q-choice-2-col">
+                            <img src="img/img-2x3-2.jpg" alt="Image" class="img-fluid">
+                            <div class="mt-4">
+                                <input type="radio" name="q3" class="tm-radio-group-2 with-gap" value="q3_a2">
+                                <span>No</span>
+                            </div>
+                        </label>
+                    </div> <!-- choices container -->
+                </div> <!-- col-12 -->
+
+                <div class="col-12 tm-respondent-info">
+                	<hr>
+                	<h2 class="tm-question-header tm-question-header-mt">Join our AKALAKA community today</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <label for="inputName">Your Name</label>
+                                <input type="text" class="form-control browser-default" id="inputName" name="name" aria-describedby="nameHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Your Email</label>
+                                <input type="email" class="form-control browser-default" id="inputEmail1" name="email" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="input-field col tm-dropdown-container">
+                                <div class="select-wrapper"><input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d"><ul id="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d" class="dropdown-content select-dropdown" tabindex="0"><li id="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d0" tabindex="0" class="selected"><span>Your Occupation</span></li><li id="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d1" tabindex="0"><span>Chief Executive</span></li><li id="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d2" tabindex="0"><span>Software Architect</span></li><li id="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d3" tabindex="0"><span>Project Manager</span></li><li id="select-options-9498e8db-3dfc-f62f-69fb-f07d1edb130d4" tabindex="0"><span>Web Developer</span></li></ul><svg class="caret" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><select class="" name="occupation" id="occupation" tabindex="-1">
+                                    <option value="select">NC County</option>
+                                    <option value="ALA">Alamance</option>
+                                    <option value="ALE">Alexander</option>
+                                    <option value="ALL">Alleghany</option>
+                                    <option value="ANS">Anson</option>
+                                    <option value="ASH">Ashe</option>
+                                    <option value="AVE">Avery</option>
+                                    <option value="BEA">Beaufort</option>
+                                    <option value="BER">Bertie</option>
+                                    <option value="BLA">Bladen</option>
+                                    <option value="BRU">Brunswick</option>
+                                    <option value="BUN">Buncombe</option>
+                                    <option value="BUR">Burke</option>
+                                    <option value="CAB">Cabarrus</option>
+                                    <option value="CAL">Caldwell</option>
+                                    <option value="CAM">Camden</option>
+                                    <option value="CAR">Carteret</option>
+                                    <option value="CAS">Caswell</option>
+                                    <option value="CAT">Catawba</option>
+                                    <option value="CHA">Chatham</option>
+                                    <option value="CHE">Cherokee</option>
+                                    <option value="CHO">Chowan</option>
+                                    <option value="CLA">Clay</option>
+                                    <option value="CLE">Cleveland</option>
+                                    <option value="COL">Columbus</option>
+                                    <option value="CRA">Craven</option>
+                                    <option value="CUM">Cumberland</option>
+                                    <option value="CUR">Currituck</option>
+                                    <option value="DAR">Dare</option>
+                                    <option value="DVD">Davidson</option>
+                                    <option value="DAV">Davie</option>
+                                    <option value="DUP">Duplin</option>
+                                    <option value="DUR">Durham</option>
+                                    <option value="EDG">Edgecombe</option>
+                                    <option value="FOR">Forsyth</option>
+                                    <option value="FRA">Franklin</option>
+                                    <option value="GAS">Gaston</option>
+                                    <option value="GAT">Gates</option>
+                                    <option value="GRM">Graham</option>
+                                    <option value="GRA">Granville</option>
+                                    <option value="GRE">Greene</option>
+                                    <option value="GUI">Guilford</option>
+                                    <option value="HAL">Halifax</option>
+                                    <option value="HAR">Harnett</option>
+                                    <option value="HAY">Haywood</option>
+                                    <option value="HEN">Henderson</option>
+                                    <option value="HER">Hertford</option>
+                                    <option value="HOK">Hoke</option>
+                                    <option value="HYD">Hyde</option>
+                                    <option value="IRE">Iredell</option>
+                                    <option value="JAC">Jackson</option>
+                                    <option value="JOH">Johnston</option>
+                                    <option value="JON">Jones</option>
+                                    <option value="LEE">Lee</option>
+                                    <option value="LEN">Lenoir</option>
+                                    <option value="LIN">Lincoln</option>
+                                    <option value="MAC">Macon</option>
+                                    <option value="MAD">Madison</option>
+                                    <option value="MAR">Martin</option>
+                                    <option value="MCD">McDowell</option>
+                                    <option value="MEC">Mecklenburg</option>
+                                    <option value="MIT">Mitchell</option>
+                                    <option value="MON">Montgomery</option>
+                                    <option value="MOO">Moore</option>
+                                    <option value="NAS">Nash</option>
+                                    <option value="NEW">New Hanover</option>
+                                    <option value="NOR">Northampton</option>
+                                    <option value="ONS">Onslow</option>
+                                    <option value="ORA">Orange</option>
+                                    <option value="PAM">Pamlico</option>
+                                    <option value="PAS">Pasquotank</option>
+                                    <option value="PEN">Pender</option>
+                                    <option value="PEQ">Perquimans</option>
+                                    <option value="PER">Person</option>
+                                    <option value="PIT">Pitt</option>
+                                    <option value="POL">Polk</option>
+                                    <option value="RAN">Randolph</option>
+                                    <option value="RIC">Richmond</option>
+                                    <option value="ROB">Robeson</option>
+                                    <option value="ROC">Rockingham</option>
+                                    <option value="ROW">Rowan</option>
+                                    <option value="RUT">Rutherford</option>
+                                    <option value="SAM">Sampson</option>
+                                    <option value="SCO">Scotland</option>
+                                    <option value="STA">Stanly</option>
+                                    <option value="STO">Stokes</option>
+                                    <option value="SUR">Surry</option>
+                                    <option value="SWA">Swain</option>
+                                    <option value="TRA">Transylvania</option>
+                                    <option value="TYR">Tyrrell</option>
+                                    <option value="UNI">Union</option>
+                                    <option value="VAN">Vance</option>
+                                    <option value="WAK">Wake</option>
+                                    <option value="WAR">Warren</option>
+                                    <option value="WAS">Washington</option>
+                                    <option value="WAT">Watauga</option>
+                                    <option value="WAY">Wayne</option>
+                                    <option value="WLK">Wilkes</option>
+                                    <option value="WIL">Wilson</option>
+                                    <option value="YAD">Yadkin</option>
+                                    <option value="YAN">Yancey</option>
+                                </select></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4">
+                            <label for="message" class="mb-3">Other Desires</label>
+                            <textarea class="p-3" name="message" id="message" cols="30" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center tm-submit-container">
+                    <button type="submit" href="#" class="btn btn-primary tm-btn-submit">Submit</button>
+                </div>
+                <div class="col-12">
+                    <hr>
+                </div>
             
 </section>
 
