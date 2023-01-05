@@ -1091,6 +1091,9 @@ h1 {
     padding-right: 15px;
     padding-left: 62px;
 }
+.col-md-12.col-lg-4 {
+    margin-left: -64px;
+}
 .tm-q-choice-container {
     margin-left: -15px;
     margin-right: -15px;
