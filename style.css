@@ -1318,6 +1318,14 @@ input[type=checkbox], input[type=radio] {
     width: 25px;
     height: 25px;
 }
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fcbba0;
+    background-color: #fcbba0;
+    z-index: 0;
+}
 [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
     height: 20px;
     width: 20px;
