@@ -1298,11 +1298,11 @@ input[type=checkbox], input[type=radio] {
     z-index: 1;
 }
 [type="checkbox"].filled-in:checked+span:not(.lever):before {
-    top: 0;
-    left: 1px;
-    width: 8px;
+    top: -2px;
+    left: 0px;
+    width: 5px;
     height: 13px;
-    border-top: 2px solid transparent;
+    border-top: 3px solid transparent;
     border-left: 2px solid transparent;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
