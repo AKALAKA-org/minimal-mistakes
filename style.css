@@ -1300,7 +1300,7 @@ input[type=checkbox], input[type=radio] {
 [type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
     content: '';
     position: absolute;
-    top: 0;
+    top: -3px;
     left: 0;
     width: 18px;
     height: 18px;
@@ -1320,8 +1320,8 @@ input[type=checkbox], input[type=radio] {
 }
 [type="checkbox"].filled-in:checked+span:not(.lever):after {
     top: 0;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border: 2px solid #fcbba0;
     background-color: #fcbba0;
     z-index: 0;
