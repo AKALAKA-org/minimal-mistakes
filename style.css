@@ -1163,6 +1163,9 @@ button, input, optgroup, select, textarea {
     border-radius: 50%;
     border: 2px solid #fcbba0;
 }
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #fcbba0;
+}
 [type="radio"] + span:before, [type="radio"] + span:after {
     border-color: #686868;
     width: 25px;
