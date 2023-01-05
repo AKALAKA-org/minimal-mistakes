@@ -1599,6 +1599,7 @@ textarea {
 textarea {
     height: 155px;
     border-color: #9a9a9a;
+    background-color: #fff;
 }
 textarea {
     overflow: auto;
