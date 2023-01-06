@@ -1459,7 +1459,7 @@ input[type=checkbox], input[type=radio] {
     outline: none;
     height: 3rem;
     line-height: 3rem;
-    width: 100%;
+    width: 75%;
     font-size: 16px;
     margin: 0 0 8px 0;
     padding: 0;
@@ -1471,12 +1471,14 @@ input[type=checkbox], input[type=radio] {
     z-index: 1;
 }
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-    background-color: transparent;
+    background-color: #fff;
     border: none;
     border-bottom: 1px solid #9e9e9e;
     border-radius: 0;
     outline: none;
     height: 3rem;
+    top: -50px;
+    left: -73px;
     width: 100%;
     font-size: 16px;
     margin: 0 0 8px 0;
@@ -1497,7 +1499,6 @@ ul:not(.browser-default) {
     padding-left: 0;
     list-style-type: none;
 }
-
 .dropdown-content {
     background-color: #fff;
     margin: 0;
@@ -1553,8 +1554,8 @@ ul:not(.browser-default)>li {
 
 .select-wrapper .caret {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 146px;
+    top: -105px;
     bottom: 0;
     margin: auto 0;
     z-index: 0;
